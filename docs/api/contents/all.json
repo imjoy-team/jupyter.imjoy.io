@@ -2,6 +2,18 @@
   "content": [
     {
       "content": null,
+      "created": "2021-11-28T17:41:46.905841Z",
+      "format": null,
+      "last_modified": "2021-11-28T17:32:22.813510Z",
+      "mimetype": null,
+      "name": "imjoy-jupyterlab-extension-demo.ipynb",
+      "path": "imjoy-jupyterlab-extension-demo.ipynb",
+      "size": 1600,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
       "created": "2021-11-27T18:30:42.364867Z",
       "format": null,
       "last_modified": "2021-11-27T18:29:14.910686Z",
@@ -13,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-11-27T18:30:42.360867Z",
+  "created": "2021-11-28T17:41:46.905841Z",
   "format": "json",
-  "last_modified": "2021-11-27T18:30:42.360867Z",
+  "last_modified": "2021-11-28T17:41:46.905841Z",
   "mimetype": null,
   "name": "",
   "path": "",
