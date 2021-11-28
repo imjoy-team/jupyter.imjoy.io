@@ -1,6 +1,6 @@
 {
   "name": "codex-chat-notebook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Doing data science without programming skills by chatting with OpenAI Codex",
   "keywords": [
     "jupyter",
@@ -61,7 +61,7 @@
     "extension": true,
     "outputDir": "codex-chat-notebook/labextension",
     "_build": {
-      "load": "static/remoteEntry.70e9375938391d71e799.js",
+      "load": "static/remoteEntry.cd6009840e3e38471bed.js",
       "extension": "./extension",
       "style": "./style"
     }

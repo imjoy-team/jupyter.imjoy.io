@@ -15,7 +15,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.70e9375938391d71e799.js",
+        "load": "static/remoteEntry.cd6009840e3e38471bed.js",
         "name": "codex-chat-notebook",
         "style": "./style"
       },
