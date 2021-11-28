@@ -1,0 +1,11 @@
+{
+  "federated_extensions": [
+    {
+      "extension": "./extension",
+      "liteExtension": false,
+      "load": "dist/labextension.js",
+      "name": "imjoy-jupyter-extension"
+    }
+  ],
+  "jupyter-lite-schema-version": 0
+}

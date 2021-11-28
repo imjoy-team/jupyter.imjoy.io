@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-11-27T18:30:42.364867Z",
+      "format": null,
+      "last_modified": "2021-11-27T18:29:14.910686Z",
+      "mimetype": null,
+      "name": "bioengine-demo.ipynb",
+      "path": "bioengine-demo.ipynb",
+      "size": 398148,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2021-11-27T18:30:42.360867Z",
+  "format": "json",
+  "last_modified": "2021-11-27T18:30:42.360867Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
