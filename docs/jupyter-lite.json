@@ -15,14 +15,8 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/index.js",
-        "name": "imjoy-jupyter-extension"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.d00301d437721bdd754d.js",
-        "name": "imjoy-jupyterlab",
+        "load": "static/remoteEntry.70e9375938391d71e799.js",
+        "name": "codex-chat-notebook",
         "style": "./style"
       },
       {
