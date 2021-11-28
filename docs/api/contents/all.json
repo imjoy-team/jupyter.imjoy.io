@@ -2,13 +2,13 @@
   "content": [
     {
       "content": null,
-      "created": "2021-11-28T17:41:46.905841Z",
+      "created": "2021-11-28T20:44:01.510377Z",
       "format": null,
-      "last_modified": "2021-11-28T17:32:22.813510Z",
+      "last_modified": "2021-11-28T20:43:46.510690Z",
       "mimetype": null,
-      "name": "imjoy-jupyterlab-extension-demo.ipynb",
-      "path": "imjoy-jupyterlab-extension-demo.ipynb",
-      "size": 1600,
+      "name": "vizarr-demo.ipynb",
+      "path": "vizarr-demo.ipynb",
+      "size": 6653,
       "type": "notebook",
       "writable": true
     },
@@ -23,11 +23,23 @@
       "size": 398743,
       "type": "notebook",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-11-28T20:44:01.510377Z",
+      "format": null,
+      "last_modified": "2021-11-28T20:43:52.714561Z",
+      "mimetype": null,
+      "name": "itk-vtk-viewer-demo.ipynb",
+      "path": "itk-vtk-viewer-demo.ipynb",
+      "size": 1656,
+      "type": "notebook",
+      "writable": true
     }
   ],
-  "created": "2021-11-28T18:04:12.613941Z",
+  "created": "2021-11-28T20:44:45.685456Z",
   "format": "json",
-  "last_modified": "2021-11-28T18:04:12.613941Z",
+  "last_modified": "2021-11-28T20:44:45.685456Z",
   "mimetype": null,
   "name": "",
   "path": "",
