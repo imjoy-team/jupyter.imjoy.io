@@ -15,6 +15,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.74587ff2e6ac2518acb3.js",
+        "name": "@retrolab/lab-extension",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.2f949e8eac895479eaa7.js",
         "name": "codex-chat-notebook",
         "style": "./style"
@@ -22,7 +29,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.cd960cdc132becd6f7d1.js",
+        "load": "static/remoteEntry.e5d95f8299333961ba19.js",
         "name": "imjoy-jupyterlab-extension",
         "style": "./style"
       }
