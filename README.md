@@ -9,6 +9,7 @@ Download elFinder
 wget https://github.com/imjoy-team/elFinder/archive/refs/heads/gh-pages.zip
 unzip gh-pages.zip 
 rm gh-pages.zip 
+rm -rf docs/elFinder
 mv elFinder-gh-pages/ docs/elFinder
 cp docs/elFinder/service-worker.js docs # make sure we have service worker for all domains
 ```
