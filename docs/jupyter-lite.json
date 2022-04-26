@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.17",
+    "appVersion": "0.1.0-beta.5",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
@@ -29,17 +29,16 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.e5d95f8299333961ba19.js",
+        "load": "static/remoteEntry.376d14da5c4c1b20f91b.js",
         "name": "imjoy-jupyterlab-extension",
         "style": "./style"
       }
     ],
-    "fullLabextensionsUrl": "./lab/extensions",
+    "fullLabextensionsUrl": "./extensions",
     "fullMathjaxUrl": "./static/jupyter_server_mathjax/MathJax.js",
-    "fullStaticUrl": "./lab/build",
-    "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe",
-    "settingsUrl": "./lab/build/schemas",
-    "themesUrl": "./lab/build/themes"
+    "fullStaticUrl": "./build",
+    "licensesUrl": "./lab/api/licenses",
+    "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe"
   },
   "jupyter-lite-schema-version": 0
 }
