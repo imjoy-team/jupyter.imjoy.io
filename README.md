@@ -19,3 +19,8 @@ jupyter lite init --output-dir=./docs
 jupyter lite build --output-dir=./docs
 jupyter lite serve --output-dir=./docs --port=8382
 ```
+
+Note: Make sure we restore the CNAME file:
+```bash
+echo "jupyter.imjoy.io" > docs/CNAME
+```
