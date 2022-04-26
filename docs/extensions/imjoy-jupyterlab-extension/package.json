@@ -61,7 +61,7 @@
     "extension": true,
     "outputDir": "imjoy-jupyterlab-extension/labextension",
     "_build": {
-      "load": "static/remoteEntry.473bf0eae8daab3f4782.js",
+      "load": "static/remoteEntry.4a7cdd9b64d39d0542c1.js",
       "extension": "./extension",
       "style": "./style"
     }
