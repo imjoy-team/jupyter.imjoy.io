@@ -1,6 +1,6 @@
 {
   "name": "imjoy-jupyterlab-extension",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Run ImJoy plugins in JupyterLab",
   "keywords": [
     "jupyter",
@@ -61,7 +61,7 @@
     "extension": true,
     "outputDir": "imjoy-jupyterlab-extension/labextension",
     "_build": {
-      "load": "static/remoteEntry.d743df29e970b0fb0f40.js",
+      "load": "static/remoteEntry.473bf0eae8daab3f4782.js",
       "extension": "./extension",
       "style": "./style"
     }
