@@ -24,3 +24,10 @@ Note: Make sure we restore the CNAME file:
 ```bash
 echo "jupyter.imjoy.io" > docs/CNAME
 ```
+
+## Load content with ImJoy API
+```javascript
+const jupyter = await api.createWindow({src: "https://jupyter.imjoy.io/lab/index.html"})
+const filePath = await jupyter.loadFile('my-file.txt', '2343', 'text/plain')
+await jupyter.openFile(filePath)
+```

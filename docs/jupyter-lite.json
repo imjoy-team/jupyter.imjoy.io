@@ -29,7 +29,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.05fe1fc8ad4851885deb.js",
+        "load": "static/remoteEntry.7e907d756d5dbd58203b.js",
         "name": "imjoy-jupyterlab-extension",
         "style": "./style"
       }
