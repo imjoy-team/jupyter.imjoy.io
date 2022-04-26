@@ -22,7 +22,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.2f949e8eac895479eaa7.js",
+        "load": "static/remoteEntry.ee0fc643ff265d1ca186.js",
         "name": "codex-chat-notebook",
         "style": "./style"
       },
