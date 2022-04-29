@@ -27,7 +27,7 @@ echo "jupyter.imjoy.io" > docs/CNAME
 
 ## Load content with ImJoy API
 ```javascript
-const jupyter = await api.createWindow({src: "https://jupyter.imjoy.io/lab/index.html", window_id: "jupyter-container"})
+const jupyter = await api.createWindow({src: "https://jupyter.imjoy.io/lab/index.html", window_id: "jupyter-container", config={"left_collapsed": true}})
 const content = await (await fetch("https://raw.githubusercontent.com/imjoy-team/imjoy-tutorials/master/2-bioengine/1-bioengine-engine-tutorial.ipynb")).text()
 if(await jupyter.fileExists('my-file.ipynb')){
     await jupyter.removeFile('my-file.ipynb')
