@@ -20,6 +20,11 @@ jupyter lite build --output-dir=./docs
 jupyter lite serve --output-dir=./docs --port=8382
 ```
 
+```bash
+pip install -U plotly codex-chat-notebook imjoy-jupyterlite-extension
+jupyter lite serve --output-dir=./docs --port=8382
+```
+
 Note: Make sure we restore the CNAME file:
 ```bash
 echo "jupyter.imjoy.io" > docs/CNAME

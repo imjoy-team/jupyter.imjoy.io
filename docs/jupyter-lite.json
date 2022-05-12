@@ -32,6 +32,13 @@
         "load": "static/remoteEntry.bb5488099ea8521d9124.js",
         "name": "imjoy-jupyterlab-extension",
         "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.e36921af02dc11718a41.js",
+        "mimeExtension": "./mimeExtension",
+        "name": "jupyterlab-plotly"
       }
     ],
     "fullLabextensionsUrl": "./extensions",
