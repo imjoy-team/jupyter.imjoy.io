@@ -9,6 +9,13 @@
     "federated_extensions": [
       {
         "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.4318d00d399dc15e3535.js",
+        "name": "@jupyterlab/git",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
         "liteExtension": true,
         "load": "static/remoteEntry.7e46d8af7cfb9637087e.js",
         "name": "@jupyterlite/javascript-kernel-extension"
@@ -36,7 +43,14 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.d87fbfbef62a029ce69b.js",
+        "load": "static/remoteEntry.791e3bf8194bf9657309.js",
+        "name": "jupyterlab-filesystem-access",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.f294278414d0a929e4ae.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
       },
@@ -46,6 +60,12 @@
         "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
         "name": "jupyterlab_pygments",
         "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static\\remoteEntry.7dd115740677e3b366fe.js",
+        "name": "nbdime-jupyterlab"
       }
     ],
     "fileTypes": {
@@ -322,7 +342,7 @@
       }
     },
     "fullLabextensionsUrl": "./extensions",
-    "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
+    "fullMathjaxUrl": "./static/jupyter_server_mathjax/MathJax.js",
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
     "litePluginSettings": {
@@ -332,7 +352,7 @@
         ]
       }
     },
-    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe"
+    "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe"
   },
   "jupyter-lite-schema-version": 0
 }

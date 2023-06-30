@@ -21,7 +21,7 @@ jupyter lite serve --output-dir=./docs --port=8382
 ```
 
 ```bash
-pip install -U plotly codex-chat-notebook imjoy-jupyterlab-extension
+pip install -U plotly codex-chat-notebook imjoy-jupyterlab-extension jupyterlab-filesystem-access
 jupyter lite serve --output-dir=./docs --port=8382
 ```
 
