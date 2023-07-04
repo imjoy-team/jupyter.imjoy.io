@@ -10,6 +10,12 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.98b8a827bfc5f86e95d2.js",
+        "name": "@jupyter-widgets/jupyterlab-manager"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.4318d00d399dc15e3535.js",
         "name": "@jupyterlab/git",
         "style": "./style"
@@ -39,6 +45,18 @@
         "load": "static/remoteEntry.bb5488099ea8521d9124.js",
         "name": "imjoy-jupyterlab-extension",
         "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.9693baf6fc7fc4c880d2.js",
+        "name": "ipycanvas"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.176149dcbfb677ea36fb.js",
+        "name": "ipyevents"
       },
       {
         "extension": "./extension",
