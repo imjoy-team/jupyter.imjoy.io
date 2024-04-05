@@ -4,6 +4,17 @@ Available at https://jupyter.imjoy.io
 
 
 ## Development
+
+# Create jupyterlite
+
+```bash
+conda create -n jupyterlite python=3.11
+pip install "jupyterlite-core[all]"
+jupyter lite init --output-dir=./docs
+jupyter lite build --output-dir=./docs
+jupyter lite serve --output-dir=./docs --port=8382
+```
+
 Download elFinder
 ```bash
 wget https://github.com/imjoy-team/elFinder/archive/refs/heads/gh-pages.zip
@@ -15,13 +26,8 @@ cp docs/elFinder/service-worker.js docs # make sure we have service worker for a
 ```
 
 ```bash
-jupyter lite init --output-dir=./docs
+pip install -U imjoy-jupyterlab-extension
 jupyter lite build --output-dir=./docs
-jupyter lite serve --output-dir=./docs --port=8382
-```
-
-```bash
-pip install -U plotly codex-chat-notebook imjoy-jupyterlab-extension jupyterlab-filesystem-access
 jupyter lite serve --output-dir=./docs --port=8382
 ```
 

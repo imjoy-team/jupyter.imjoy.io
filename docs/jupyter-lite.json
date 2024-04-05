@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0",
+    "appVersion": "0.3.0",
     "baseUrl": "./",
     "defaultKernelName": "python",
     "faviconUrl": "./lab/favicon.ico",
@@ -10,80 +10,29 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.98b8a827bfc5f86e95d2.js",
-        "name": "@jupyter-widgets/jupyterlab-manager"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.4318d00d399dc15e3535.js",
-        "name": "@jupyterlab/git",
+        "load": "static/remoteEntry.832d780237fca436ff92.js",
+        "name": "@jupyter-notebook/lab-extension",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.7e46d8af7cfb9637087e.js",
-        "name": "@jupyterlite/javascript-kernel-extension"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": true,
-        "load": "static/remoteEntry.b340cae4b3c1bda6a7fd.js",
+        "load": "static/remoteEntry.5005680d014e4b7f3db1.js",
         "name": "@jupyterlite/pyodide-kernel-extension"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.917c6c06846d04d0cc6e.js",
-        "name": "codex-chat-notebook",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.bb5488099ea8521d9124.js",
+        "load": "static/remoteEntry.255b911990d2e3135de9.js",
         "name": "imjoy-jupyterlab-extension",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.9693baf6fc7fc4c880d2.js",
-        "name": "ipycanvas"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.176149dcbfb677ea36fb.js",
-        "name": "ipyevents"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.791e3bf8194bf9657309.js",
-        "name": "jupyterlab-filesystem-access",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.f294278414d0a929e4ae.js",
-        "mimeExtension": "./mimeExtension",
-        "name": "jupyterlab-plotly"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
+        "load": "static/remoteEntry.5cbb9d2323598fbda535.js",
         "name": "jupyterlab_pygments",
         "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static\\remoteEntry.7dd115740677e3b366fe.js",
-        "name": "nbdime-jupyterlab"
       }
     ],
     "fileTypes": {
@@ -360,17 +309,15 @@
       }
     },
     "fullLabextensionsUrl": "./extensions",
-    "fullMathjaxUrl": "./static/jupyter_server_mathjax/MathJax.js",
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
         "pipliteUrls": [
-          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=55f1d3982adfce14adaebe30c941e4857226d00982e31d3c3a92acf14de17eac"
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=407e85cb8847d66d1897a62a4410ca2a2d67be109cd8a0c6ed109937c4cb1a86"
         ]
       }
-    },
-    "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe"
+    }
   },
   "jupyter-lite-schema-version": 0
 }
