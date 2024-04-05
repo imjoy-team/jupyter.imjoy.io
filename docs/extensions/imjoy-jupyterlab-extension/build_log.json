@@ -651,7 +651,7 @@
             "imjoy-core": {},
             "reflect-metadata": {},
             "imjoy-jupyterlab-extension": {
-              "version": "0.2.5",
+              "version": "0.2.6",
               "singleton": true,
               "import": "/Users/wei.ouyang/workspace/imjoy-jupyterlab-extension/lib/index.js"
             }

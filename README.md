@@ -9,7 +9,9 @@ Available at https://jupyter.imjoy.io
 
 ```bash
 conda create -n jupyterlite python=3.11
+conda activate jupyterlite
 pip install "jupyterlite-core[all]"
+pip install jupyterlite-pyodide-kernel
 jupyter lite init --output-dir=./docs
 jupyter lite build --output-dir=./docs
 jupyter lite serve --output-dir=./docs --port=8382

@@ -124,7 +124,7 @@ __webpack_require__.d(exports, {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + {"vendors-node_modules_imjoy-core_dist_imjoy-loader_js-node_modules_imjoy-core_dist_imjoy-rpc_js":"fa1a9cd9c57812bbe9b2","lib_index_js":"9b49eabf628b7b47bd8a","style_index_js":"4a04af2efb9bedd57803","vendors-node_modules_reflect-metadata_Reflect_js":"91708819816796d39b60"}[chunkId] + ".js";
+/******/ 			return "" + chunkId + "." + {"vendors-node_modules_imjoy-core_dist_imjoy-loader_js-node_modules_imjoy-core_dist_imjoy-rpc_js":"fa1a9cd9c57812bbe9b2","lib_index_js":"434a16a9fda98e7fb04f","style_index_js":"4a04af2efb9bedd57803","vendors-node_modules_reflect-metadata_Reflect_js":"91708819816796d39b60"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -243,7 +243,7 @@ __webpack_require__.d(exports, {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("imjoy-jupyterlab-extension", "0.2.5", () => (Promise.all([__webpack_require__.e("vendors-node_modules_imjoy-core_dist_imjoy-loader_js-node_modules_imjoy-core_dist_imjoy-rpc_js"), __webpack_require__.e("lib_index_js")]).then(() => (() => (__webpack_require__(/*! ./lib/index.js */ "./lib/index.js"))))));
+/******/ 					register("imjoy-jupyterlab-extension", "0.2.6", () => (Promise.all([__webpack_require__.e("vendors-node_modules_imjoy-core_dist_imjoy-loader_js-node_modules_imjoy-core_dist_imjoy-rpc_js"), __webpack_require__.e("lib_index_js")]).then(() => (() => (__webpack_require__(/*! ./lib/index.js */ "./lib/index.js"))))));
 /******/ 					register("reflect-metadata", "0.1.13", () => (__webpack_require__.e("vendors-node_modules_reflect-metadata_Reflect_js").then(() => (() => (__webpack_require__(/*! ./node_modules/reflect-metadata/Reflect.js */ "./node_modules/reflect-metadata/Reflect.js"))))));
 /******/ 				}
 /******/ 				break;
@@ -570,4 +570,4 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=remoteEntry.255b911990d2e3135de9.js.map
+//# sourceMappingURL=remoteEntry.8a820d73fbfec0ca4de7.js.map
